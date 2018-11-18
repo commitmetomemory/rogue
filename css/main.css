@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'Wisdom Script';
+src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/***** CONTAINER DIV *****/
+
+.main-contain {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h3, h4 {
+  text-transform: UPPERCASE;
+  color: black;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 30px;
+
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+
+}
+
+h4 {
+  font-size: 12px;
+
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/***** HEADER & NAV *****/
+
+header {
+  height: 110px;
+  border-bottom: 3px solid #77a466;
+  /*margin: 0 auto;*/
+}
+
+
+header h1 {
+  color: #000000;
+  float: left;
+  margin: 0;
+  padding: 37px 0;
+}
+
+header h1 span {
+  color: #77a466;
+
+}
+
+header nav {
+  float: right;
+  padding: 46px 0;
+  */
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  text-transform: capitalize;
+  padding: 0 10px;
+  display: inline;
+  font-weight: 700;
+  font-size: 14px;
+
+}
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+
+header nav ul li a {
+  color: #77a466;
+}
+
+/***** TOP SECTION *****/
+
+/* (solution-what does it do?)
+.top-section, .bottom-section {
+  clear: both;
+  margin: 0 auto;
+
+}
+
+/* (solution - why? ) -Duplicate, but WHYYY
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+} */
+
+/***** HERO IMAGE *****/
+.hero-image {
+
+  /* height: auto;
+  float: left; */
+}
+
+.hero-image img {
+  border-bottom: 3px solid #77a466;
+}
+/***** WELCOME SECTION *****/
+
+.welcome {
+/*
+height: auto;
+float: left;
+*/
+}
+
+.welcome h3 {
+  padding: 0px;
+  color: #77a466;
+}
+
+.welcome p {
+  padding: 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+/***** INFO SECTION *****/
+
+
+.specials, .reviews, .contact {
+  width: 399px;
+  /* (why?) height: auto; */
+  float: left;
+  border-top: 1px solid #dedbdc;
+}
+
+/***** SPECIALS *****/
+
+.specials h4 {
+  padding-top: 10px 0;
+
+}
+/***** REVIEWS *****/
+
+.reviews {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+
+}
+.reviews h4,
+.contact h4 {
+	padding: 10px 30px;
+}
+
+.menu  {
+  list-style: none;
+  padding: 0px;
+
+}
+.menu li {
+  padding: 10px 0;
+  color: #77a466;
+}
+
+.best-review {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+
+/***** CONTACT *****/
+
+.address {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/***** FOOTER SECTION *****/
+
+footer {
+  border-top: 1px solid #dedbdc;
+  text-align: center;
+  padding: 30px 0;
+  font-weight: 700;
+  clear: both;
+  height: 50px;
+}
+
+footer span {
+
+  font-family: 'Wisdom Script';
+  color: #77a466;
+  font-size: 16px;
+  text-transform: lowercase;
+
+}
